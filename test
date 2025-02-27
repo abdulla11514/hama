@@ -1,0 +1,9 @@
+ CREATE TABLE client 
+( 
+        c_id INT PRIMARY KEY, 
+        c_name NVARCHAR2(100) NOT NULL, 
+        c_mail NCHAR(30) UNIQUE, 
+        c_id_card NCHAR(20) UNIQUE NOT NULL, 
+        c_phone NCHAR(20) UNIQUE NOT NULL, 
+        c_password NCHAR(20) NOT NULL 
+); 
